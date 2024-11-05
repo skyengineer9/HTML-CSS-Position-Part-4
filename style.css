@@ -1,0 +1,50 @@
+body {
+  padding-bottom: 3000px; /* Extra space at the bottom to allow scrolling */
+}
+
+img {
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  border-radius: 50px; /* Rounded corners for images */
+  object-fit: cover; /* Cover the image area without distortion */
+  margin-bottom: 20px; /* Space between images */
+}
+
+.sidebar {
+  display: flex; /* Use flexbox layout for sidebar */
+  position: fixed; /* Fix the sidebar position to the left */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+}
+
+.leftside {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack images vertically */
+  background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
+  width: 120px; /* Set width of the left side */
+  padding: 5px; /* Padding around the content */
+  align-items: center; /* Center images horizontally */
+}
+
+.rightside {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  width: 300px; /* Set width of the right side */
+}
+
+.info {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out items */
+  padding: 5px; /* Padding around the info section */
+  padding-left: 30px; /* Left padding */
+  padding-right: 30px; /* Right padding */
+  font-size: 25px; /* Font size for info header */
+  font-weight: 700; /* Bold text */
+}
+
+.content {
+  padding: 5px; /* Padding around content */
+  padding-left: 30px; /* Left padding for content */
+  font-size: 20px; /* Font size for content */
+  font-weight: 700; /* Bold text for content */
+  color: rgb(197, 196, 196); /* Light gray color for content text */
+}
